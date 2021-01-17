@@ -1,0 +1,45 @@
+﻿
+html {
+    background-image: linear-gradient(#a6c7f4, rgba(187, 113, 95, 0.88));
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+input {
+    border-radius: 50px;
+    border-color: #a6c7f4;
+    text-align: center;
+    width: 70px;
+    background-color: #a6c7f4;
+    padding:5px;
+}
+
+.gradeResults {
+    text-align: center;
+    margin: inherit;
+    
+}
+
+img {
+    border-radius: 80px;
+    padding: 5px;
+    margin: inherit;
+}
+
+input[type=button] {
+    background-image: radial-gradient(circle at center, #d1dbe9, #d49c8f);
+    border: none;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+input[type=button]:hover {
+    background-image: radial-gradient(circle at center, rgba(187, 113, 95, 0.88), #a6c7f4);
+}

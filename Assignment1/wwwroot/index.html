@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>David Schraedel - Assignment 1</title>
+    <!--icon-->
+    <link rel="icon" type="images/jpeg" href="img/DS_ico.jpeg" />
+    <!--stylesheet-->
+    <link href="css/myStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <br />
+    <!--Header with preferred name-->
+    <h1>David Schraedel</h1>
+    <br />
+    <!--Image of me doing something I enjoy-->
+    <h5>Something I enjoy doing:</h5>
+    <img src="img/DavePiano.jpg" width="500" />
+
+    <!--paragraph on what I hope to get out of this IS 413 class-->
+    <h5>What I hope to gain from this course:</h5>
+    <p>I hope in this course, I become more comfortable with programming larger applications, and organizing that process.  I feel like I am fairly skilled in my ability to understand code and build programs when I know what is going on.  It can sometimes get overwhelming when more and more is added to the process, and I hope to improve in my organization and grasping the bigger picture of what we can do and how to accomplish it with applications, especially with multiple languages.</p>
+
+    <!--top 3 jobs I am interested in after graduation-->
+    <h5>My top 3 job interests at the moment:</h5>
+    <ul>
+        <li>Web Development</li>
+        <li>Software Development</li>
+        <li>Data Analytics</li>
+    </ul>
+
+    <!--grade calculator form-->
+    <h5>Grade Calculator:</h5>
+    <form>
+        <label for="assignments">Assignments: </label>
+        <input type="number" step="0.01" max="50" value=0 id="assignments" /><label class="" for="assignments"> % of 50%</label>
+        <br /><br />
+        <label for="groupProject">Group Project:  </label>
+        <input type="number" step="0.01" max="10" value=0 id="groupProject" /><label for="assignments"> % of 10%</label>
+        <br /><br />
+        <label for="quizzes">Quizzes:  </label>
+        <input type="number" step="0.01" max="10" value=0 id="quizzes" /><label for="assignments"> % of 10%</label>
+        <br /><br />
+        <label for="exams">Exams:  </label>
+        <input type="number" step="0.01" max="20" value=0 id="exams" /><label for="assignments"> % of 20%</label>
+        <br /><br />
+        <label for="intex">INTEX:  </label>
+        <input type="number" step="0.01" max="10" value=0 id="intex" /><label for="assignments"> % of 10%</label>
+        <br /><br />
+        <input type="button" id="submitButton" value="Calculate Grade" />
+    </form>
+    <br />
+
+    <!--grade calculation output-->
+    <h3>Final Grade:</h3>
+    <div class="gradeResults">
+        <h4 id="calculatedLetterGrade"></h4>
+        <h5 id="calculatedPercentGrade"></h5>
+    </div>
+
+    <!--space for readability at the bottom of the page-->
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!--JavaScript for grade calculation-->
+    <script src="js/script.js"></script>
+</body>
+</html>
